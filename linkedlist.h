@@ -1,4 +1,3 @@
-#pragma once
 #include "node.h"
 
 class LinkedList : public Node {
