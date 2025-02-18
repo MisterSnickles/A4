@@ -1,12 +1,12 @@
 #include <iostream>
 #include "linkedlist.h"
-#include "node.h"
 
 using namespace std;
 
 int main() {
 
-
+    LinkedList LinkedList;
+    Node(10);
 
     return 0;
 }
