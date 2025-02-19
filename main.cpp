@@ -20,10 +20,12 @@ int main() {
     list.del_beg();
     list.display();
 
+    // Adding new node to beginning of linked list : data = 7 : 7->10->15->20
     cout << "\nAfter adding first node (data = 7) from linked list, the list is: ";
     list.add_beg(7);
     list.display();
 
+    // Inserting new node in index 2 between 10 and 15 : data = 12 : 7->10->12->15->20
     cout << "\nNow we want to insert a node in index 2 (data = 12) into the linked list, the list is: ";
     list.insert(2, 12);
     list.display();
