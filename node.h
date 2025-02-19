@@ -1,5 +1,6 @@
 class Node {
-public:
+public: 
+    // member variables
     int data;
     Node* next;
 
@@ -7,5 +8,5 @@ public:
     // Constructors
     Node();
     Node(int);
-    Node(int, int);
+    
 };

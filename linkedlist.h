@@ -1,19 +1,32 @@
 #include "node.h"
 
+// LinkedList class is used to manage and alter linked list if needed
 class LinkedList : public Node {
 
 public:
-    Node* start;    
+    Node* head;    
     
 public:
-    // Constructor
-    LinkedList(int);
-    LinkedList();
 
-    // Member Function Prototypes
-    void add(int, int);
-    int get(int);
-    void add_beg(int);
+    // Constructor -------------------------------------------------------
+    LinkedList() {
+        head = nullptr;
+    }
+    
+
+    // Member Function Prototypes ----------------------------------------
+    // add data at a certain location in linked list
+    void insert(int, int); // data, location
+
+    // return a node pointer in linkedlist
+    Node* get(int); // data
+
+    // add to beginning of linkedlist
+    void add_beg(int); // data
+
+    // delete the beginning of linkedlist
     void del_beg();
-    void append(int);
+
+    // display linked list data
+    void display();
 };

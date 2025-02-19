@@ -8,7 +8,9 @@ Node::Node() {
    this->next = nullptr;
 }
 
-Node::Node(int d) : data(d) {}
+Node::Node(int d) {
+   this->data = d;
+   this->next = nullptr;
+}    
 
-Node::Node(int d, int n) : data(d), next(nullptr) {}
 
