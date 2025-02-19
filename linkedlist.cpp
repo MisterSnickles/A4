@@ -62,10 +62,11 @@ void LinkedList::display() {
         cout << "Error: Cannot display empty list" << endl;
     }
     Node* temp = head;
-    while (temp->next != nullptr) {
+    while (temp != nullptr) {
         cout << temp->data << "->";
         temp = temp->next;
     }
+    cout << "END";
 }
 
 

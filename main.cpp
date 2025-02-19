@@ -16,9 +16,19 @@ int main() {
     list.display();
 
     // Deleting first node from linked list : data = 5 : 10->15->20
-    cout << "\n\nAfter deleting first node from linked list, the data is: ";
+    cout << "\n\nAfter deleting first node (data = 5) from linked list, the list is: ";
     list.del_beg();
     list.display();
+
+    cout << "\nAfter adding first node (data = 7) from linked list, the list is: ";
+    list.add_beg(7);
+    list.display();
+
+    cout << "\nNow we want to insert a node in index 2 (data = 12) into the linked list, the list is: ";
+    list.insert(2, 12);
+    list.display();
+
+    cout << "\n" << endl;
     
 
     return 0;
