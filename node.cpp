@@ -11,6 +11,10 @@ Node::Node() {
 Node::Node(int d) {
    this->data = d;
    this->next = nullptr;
-}    
+} 
+
+Node::~Node() {
+   cout << "Node Destructor Called" << endl;
+}
 
 

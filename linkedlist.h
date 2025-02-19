@@ -8,9 +8,13 @@ public:
     
 public:
 
-    // Constructor -------------------------------------------------------
+    // Constructor and Destructor ----------------------------------------
     LinkedList() {
         head = nullptr;
+    }
+
+    ~LinkedList() {
+        std::cout << "List Destructor Called" << std::endl;
     }
     
 

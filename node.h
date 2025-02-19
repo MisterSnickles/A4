@@ -8,5 +8,8 @@ public:
     // Constructors
     Node();
     Node(int);
+
+    // Destructor
+    ~Node();
     
 };
